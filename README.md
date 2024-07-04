@@ -1,4 +1,4 @@
-### RNAseq_vc
+## RNAseq_vc
 ##How to call variants on references using RNA-seq data
 
 You just need a reference on which to call the variants and libraries for each sample, and a *list.sample* file is recommended to speed up some below commands.
