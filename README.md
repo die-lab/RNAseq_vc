@@ -42,5 +42,5 @@ You may be interested in plotting the expression of your RNA-seq data along your
 Use the following!
 ```
 samtools depth $sample'.sorted.bam' > $sample'.coverage.txt'
-python plot.coverage.py
+python plot.coverage.py $PWD
 ```
