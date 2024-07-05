@@ -37,3 +37,10 @@ for sample in $(cat list.sample)
   do python correct.py $sample $PWD $reference_fasta
   done
 ```
+## EXPRESSION PLOTTING
+You may be interested in plotting the expression of your RNA-seq data along your reference, so to spot immediately region of low coverage.
+Use the following!
+```
+samtools depth $sample'.sorted.bam' > $sample'.coverage.txt'
+python plot.coverage.py
+```
